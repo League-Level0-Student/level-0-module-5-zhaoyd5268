@@ -55,23 +55,61 @@ public static void main(String[] args) {
 	//////////// NESTED FOR -- LOOPS
 		//// METHOD ONE NESTING
 // int newi = 0;
-	 for (int ii = 0; ii<3; ii++) {
+//	 for (int ii = 0; ii<3; ii++) {
 // for (int newii = 0; newii<3; newii++) {
 //	System.out.println(ii + " "+newii);
 //	 }	 
 // }
 
 		//// METHOD TWO NESTING
+//	int num = 1;
+//	int numb = 2;
+//	int number = 3;
+//	for (int newii = 0; newii<3; newii++) {
+//		System.out.println(num + " "+ numb + " " + number);
+//		num+=3;
+//		numb+=3;
+//		number+=3;
+//	}	 
+
+	//// METHOD THREE NESTING
+//	int num = 1;
+//	int numb = 2;
+//	int number = 3;
+//	int num1 = 4;
+//	int numb1 = 5;
+//	int number1 = 6;
+//	int num2 = 7;
+//	int numb2 = 8;
+//	int number2 = 9;
+//	int newnum = 10;
+//	for (int newii = 0; newii<10; newii++) {
+//		System.out.println(num + " "+ numb + " " + number + " " + num1 + " "+ numb1 + " " + number1 + " " + num2 + " "+ numb2 + " " + number2 + " " + newnum);
+//		num+=10;
+//		numb+=10;
+//		number+=10;
+//		num1+=10;
+//		numb1+=10;
+//		number1=10;
+//		num2+=10;
+//		numb2+=10;
+//		number2+=10;
+//		newnum+=10;
+//	}	 
+	
+	//// METHOD FOUR NESTING
+
+//System.out.println("* ");
+//System.out.println("* * ");
+//System.out.println("* * *");
+//System.out.println("* * * *");
+//System.out.println("* * * * *");
+//System.out.println("* * * * * *");
 
 
-	
-	
-	
-	
-	
+}
 
-	
 	
 	
 }
-}
+
