@@ -1,19 +1,38 @@
 package _03_method_writing._1_obedient_robot;
 
 
+import javax.swing.JOptionPane;
+
 import org.jointheleague.graphical.robot.Robot;
 public class ObediantRobot {
 public static void main(String[] args) {
 
-drawsquare();
-drawtriangle();
+
+
+
+String methotype = JOptionPane.showInputDialog("Do you want a square, triangle, or circle?");
+if (methotype.equalsIgnoreCase("square"))  {
+	drawsquare();
+	
+} else if (methotype.equalsIgnoreCase("triangle")) {
+	drawtriangle();
+} else if (methotype.equalsIgnoreCase("circle")) {
+	drawcircle();
+}
 
 
 
 
-
-
-
+}
+private static void drawcircle() {
+	Robot rob = new Robot();
+	rob.penDown();
+	rob.setSpeed(100);
+	for (int i=0; i<45; i++) {
+	rob.move(24);
+	rob.turn(8);
+	}
+	rob.hide();
 }
 
 private static void drawtriangle() {
