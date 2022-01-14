@@ -9,5 +9,5 @@ public class LeagueToken {
 		hacker.hack();
 	}
 }
-// token is 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
+// token is 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
 // use for copying!
